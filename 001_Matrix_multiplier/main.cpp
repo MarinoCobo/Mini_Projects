@@ -19,11 +19,13 @@ void matrix_Generator
 
 void matrix_Filler
 (
-    int rows,  
+    int row,
+    int numberOfRows,  
     std::vector<int>& r,
     std::vector<std::vector<int>>& c
 )
 {
+<<<<<<< HEAD
     std::string temporary;
     int number;
     for(int i = 0; i < rows - 1; i++)
@@ -40,3 +42,31 @@ void matrix_Filler
     }
 
 } 
+=======
+    for(int i = 0; i < numberOfRows - 1; i++)
+    {
+        int temporary{};
+        std::cin.ignore();
+        std::cout << "Enter row N°" << i+1;
+        std::getline(std::cin, row);
+        std::stringstream ss(row);
+        while(ss >> temporary)
+        {
+            for(int j = 0; j < c.size(); j++)
+            {
+                c[j].push_back(temporary);
+            }
+        }
+    }
+
+
+}
+int main()
+{
+    return 0;
+}
+
+
+// 3 3 123 123 123 
+//2 3
+>>>>>>> c9ba9da (Inserted Main Function)
