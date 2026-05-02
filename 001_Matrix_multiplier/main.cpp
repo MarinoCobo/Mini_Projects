@@ -66,7 +66,3 @@ int main()
     return 0;
 }
 
-
-// 3 3 123 123 123 
-//2 3
->>>>>>> c9ba9da (Inserted Main Function)
