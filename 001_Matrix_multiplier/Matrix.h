@@ -7,8 +7,8 @@ class Matrix
     private:
        std::vector<std::vector<int>>& matrix; 
     public:
-        void resize(std::vector<std::vector<int>>& matrix);
-        void fill(std::vector<std::vector<int>>& matrix);
+        void resize(int r, int c);
+        void fill();
         void clear(std::vector<std::vector<int>>& matrix);
         void fill(std::vector<std::vector<int>>& matrix);
         void print();
