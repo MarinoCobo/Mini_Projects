@@ -7,6 +7,7 @@ systems programming. Each project lives in its own numbered folder.
 |---|---------|--------------|
 | 001 | [Matrix multiplier](001_Matrix_multiplier/) | Reads two matrices from the console and multiplies them, using a `Matrix` class split into header and implementation. |
 | 002 | [RSA encrypter/decrypter](002_RSA_Encrypter_Decrypter/) | Generates 9-digit primes, derives RSA keys with the extended Euclidean algorithm, and encrypts/decrypts a text message. |
+| 003 | [Sudoku](003_Sudoku/) | Generates random Sudoku boards with a backtracking solver, removes cells by difficulty, and gives hints from the stored solution. |
 
 ## Building
 
